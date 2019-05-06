@@ -1,0 +1,15 @@
+
+[woost.extensions.googlesearch]
+
+    [results_page]
+
+        [title]
+        ca: Resultats de la cerca
+        es: Resultados de la búsqueda
+        en: Search results
+
+    [results_block]
+
+        [heading]
+        @reuse "woost.extensions.googlesearch.results_page"
+

@@ -1,0 +1,18 @@
+
+[woost.models.settings]
+
+    [x_googlesearch_api_key]
+    ca: Clau de l'API del cercador
+    es: Clave del API del buscador
+    en: Search API key
+
+    [x_googlesearch_engine_id]
+    ca: Identificador del cercador
+    es: Indentificador del buscador
+    en: Search engine id
+
+    [x_googlesearch_results_page]
+    ca: Pàgina de resultats de cerca
+    es: Página de resultados de búsqueda
+    en: Search results page
+
