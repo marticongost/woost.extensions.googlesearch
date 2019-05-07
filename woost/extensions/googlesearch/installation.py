@@ -14,10 +14,12 @@ def install():
         Page,
         "results_page",
         title = assets.TRANSLATIONS,
-        blocks = assets.require(
-            CustomBlock,
-            "results_block",
-            view_class = "woost.extensions.googlesearch.GoogleCSEResults"
-        )
+        blocks = [
+            assets.require(
+                CustomBlock,
+                "results_block",
+                view_class = "woost.extensions.googlesearch.GoogleCSEResults"
+            )
+        ]
     )
 
