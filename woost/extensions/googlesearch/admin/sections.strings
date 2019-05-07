@@ -1,1 +1,6 @@
 
+[woost.extensions.googlesearch.admin.sections]
+
+    [GoogleSearchSettings.instance(instance, **kwargs)]
+    *: Google Search
+
